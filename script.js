@@ -36,7 +36,7 @@ request.onload=function(){
      var result = JSON.parse(data);
     for(var i=0;i< result.length;i++)
     {
-      console.log ("counrtyname:"+" "+result[i].name.common, "region:"+" "+result[i].region.common, "subregion:"+" "+result[i].name.subregion)
+      console.log ("counrtyname:"+"  "+result[i].name.common,"Region:"+"  "+result[i].region,"Subregion:"+"  "+result[i].subregion,"Population:"+"  "+result[i].population)
       
     }
 }
